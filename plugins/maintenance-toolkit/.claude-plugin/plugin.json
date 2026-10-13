@@ -1,0 +1,8 @@
+{
+  "name": "maintenance-toolkit",
+  "description": "Codebase upkeep: the dependency-bump ritual (batch patch/minor, changelog-first majors, security jumps the queue), evidence-based dead-code sweeps, the quarterly repo health checklist (docs truth, CI health, dependency debt, secrets hygiene), and migrate-codebase orchestration for wide cleanups.",
+  "version": "0.1.0",
+  "author": {
+    "name": "TU_USUARIO"
+  }
+}

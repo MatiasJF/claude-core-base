@@ -1,0 +1,102 @@
+{
+  "name": "claude-core-base",
+  "owner": {
+    "name": "TU_USUARIO"
+  },
+  "metadata": {
+    "description": "Marketplace base de Claude Code: plugins, rules y plantillas comunes a todas tus máquinas."
+  },
+  "plugins": [
+    {
+      "name": "core-tools",
+      "source": "./plugins/core-tools",
+      "description": "Comandos genéricos: documentación técnica en DOCX y escaneo de secretos."
+    },
+    {
+      "name": "mcp-n8n",
+      "source": "./plugins/mcp-n8n",
+      "description": "Servidor MCP de n8n (documentación y validación de nodos) vía Docker."
+    },
+    {
+      "name": "orchestrator",
+      "description": "Turn a big task into a tree of agents. A routing skill decides when to decompose work, picks the right fan-out pattern (deep-review, parallel-research, design-tournament, migrate), and drives reusable Workflow scripts with planner/worker/verifier/synthesizer agent archetypes.",
+      "source": "./plugins/orchestrator",
+      "category": "productivity"
+    },
+    {
+      "name": "webdev-toolkit",
+      "description": "Web development discipline: stack defaults, the build-verify-ship loop (drive the real app, not just tests), ship checklists (errors, validation, a11y, perf), client-secret and authorization hard rules, and orchestration hooks for big designs and pre-ship reviews.",
+      "source": "./plugins/webdev-toolkit",
+      "category": "development"
+    },
+    {
+      "name": "scraping-toolkit",
+      "description": "Web scraping done right: robots/GDPR/auth-wall gates, an API-first tool ladder, schema-first extraction, anti-brittleness rules (semantic selectors, loud failures, snapshots, idempotent re-runs), and a crawl-extract workflow for URL lists.",
+      "source": "./plugins/scraping-toolkit",
+      "category": "productivity"
+    },
+    {
+      "name": "analytics-toolkit",
+      "description": "Data analysis discipline: the pull-profile-analyze-visualize-report pipeline, statistical rigor rules (effect sizes, denominators, confounders, seasonality, distributions, multiple comparisons), honest-uncertainty reporting, and dataviz-skill integration for charts.",
+      "source": "./plugins/analytics-toolkit",
+      "category": "productivity"
+    },
+    {
+      "name": "database-toolkit",
+      "description": "Database discipline: destructive-SQL gates (state loss, verify backup, confirm), environment echo before mutations, expand-migrate-contract migration discipline with reversibility, schema rules that model access patterns, and a query review checklist (EXPLAIN, indexes, N+1s, parameterization).",
+      "source": "./plugins/database-toolkit",
+      "category": "development"
+    },
+    {
+      "name": "security-toolkit",
+      "description": "Defensive security for everyday shipping: 10-minute threat models, per-entry-point review checklist (injection, authZ/IDOR, secrets, crypto, uploads), dependency/supply-chain routine, incident basics, and deep-review orchestration for full audits. Authorized-defensive scope only.",
+      "source": "./plugins/security-toolkit",
+      "category": "security"
+    },
+    {
+      "name": "devops-toolkit",
+      "description": "CI/CD and infrastructure discipline: deploy gates (dry-run first, prod confirmation, rollback path stated), fail-fast pipeline conventions, IaC rules (no console drift, sacred state), container hygiene (non-root, no secrets in layers), and the observability minimum.",
+      "source": "./plugins/devops-toolkit",
+      "category": "development"
+    },
+    {
+      "name": "maintenance-toolkit",
+      "description": "Codebase upkeep: the dependency-bump ritual (batch patch/minor, changelog-first majors, security jumps the queue), evidence-based dead-code sweeps, the quarterly repo health checklist, and migrate-codebase orchestration for wide cleanups.",
+      "source": "./plugins/maintenance-toolkit",
+      "category": "productivity"
+    },
+    {
+      "name": "taste-skill",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Leonxlnx/taste-skill.git"
+      },
+      "description": "Externo (MIT, leonxlnx): skills de gusto de diseño frontend, imagen a código y kits de marca.",
+      "category": "design",
+      "license": "MIT",
+      "homepage": "https://github.com/Leonxlnx/taste-skill"
+    },
+    {
+      "name": "hyperframes",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/heygen-com/hyperframes.git"
+      },
+      "description": "Externo (Apache-2.0, HeyGen): crear y renderizar vídeo desde HTML; animación, audio, keyframes y medios.",
+      "category": "design",
+      "license": "Apache-2.0",
+      "homepage": "https://hyperframes.heygen.com"
+    },
+    {
+      "name": "impeccable",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pbakaus/impeccable.git"
+      },
+      "description": "Externo (Apache-2.0, pbakaus): diseño, crítica y pulido de interfaces, con sus agentes.",
+      "category": "design",
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/pbakaus/impeccable"
+    }
+  ]
+}

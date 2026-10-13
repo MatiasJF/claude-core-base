@@ -1,0 +1,8 @@
+{
+  "name": "database-toolkit",
+  "description": "Database discipline: destructive-SQL gates (state loss, verify backup, confirm), environment echo before mutations, expand-migrate-contract migration discipline with reversibility, schema rules that model access patterns, and a query review checklist (EXPLAIN, indexes, N+1s, parameterization).",
+  "version": "0.1.0",
+  "author": {
+    "name": "TU_USUARIO"
+  }
+}

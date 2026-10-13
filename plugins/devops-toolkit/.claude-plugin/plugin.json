@@ -1,0 +1,8 @@
+{
+  "name": "devops-toolkit",
+  "description": "CI/CD and infrastructure discipline: deploy gates (dry-run first, prod confirmation, rollback path stated), fail-fast pipeline conventions, IaC rules (no console drift, sacred state), container hygiene (non-root, no secrets in layers), and the observability minimum (health, structured logs, one alert that matters).",
+  "version": "0.1.0",
+  "author": {
+    "name": "TU_USUARIO"
+  }
+}

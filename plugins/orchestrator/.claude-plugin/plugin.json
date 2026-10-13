@@ -1,0 +1,8 @@
+{
+  "name": "orchestrator",
+  "description": "Turn a big task into a tree of agents. A routing skill decides when to decompose work, picks the right fan-out pattern, and drives reusable Workflow scripts with planner/worker/verifier/synthesizer agent archetypes.",
+  "version": "0.2.0",
+  "author": {
+    "name": "TU_USUARIO"
+  }
+}

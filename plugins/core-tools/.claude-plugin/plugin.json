@@ -1,0 +1,8 @@
+{
+  "name": "core-tools",
+  "version": "0.1.0",
+  "description": "Comandos genéricos: documentación técnica en DOCX y escaneo de secretos.",
+  "author": {
+    "name": "TU_USUARIO"
+  }
+}

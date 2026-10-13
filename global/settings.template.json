@@ -1,0 +1,12 @@
+{
+  "autoUpdatesChannel": "stable",
+  "extraKnownMarketplaces": {
+    "claude-core-base": {
+      "source": { "source": "url", "url": "https://github.com/TU_USUARIO/claude-core-base.git" }
+    }
+  },
+  "enabledPlugins": {
+    "core-tools@claude-core-base": true,
+    "orchestrator@claude-core-base": true
+  }
+}

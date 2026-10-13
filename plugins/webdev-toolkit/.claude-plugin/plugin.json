@@ -1,0 +1,8 @@
+{
+  "name": "webdev-toolkit",
+  "description": "Web development discipline: stack defaults, the build-verify-ship loop (drive the real app, not just tests), ship checklists (errors, validation, a11y, perf), client-secret and authorization hard rules, and orchestration hooks for big designs and pre-ship reviews.",
+  "version": "0.1.0",
+  "author": {
+    "name": "TU_USUARIO"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "scraping-toolkit",
+  "description": "Web scraping done right: robots/GDPR/auth-wall gates, an API-first tool ladder, schema-first extraction, anti-brittleness rules (semantic selectors, loud failures, snapshots, idempotent re-runs), and a crawl-extract workflow for URL lists.",
+  "version": "0.1.0",
+  "author": {
+    "name": "TU_USUARIO"
+  }
+}

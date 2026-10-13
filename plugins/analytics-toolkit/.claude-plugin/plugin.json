@@ -1,0 +1,8 @@
+{
+  "name": "analytics-toolkit",
+  "description": "Data analysis discipline: the pull-profile-analyze-visualize-report pipeline, statistical rigor rules (effect sizes, denominators, confounders, seasonality, distributions, multiple comparisons), honest-uncertainty reporting, and dataviz-skill integration for charts.",
+  "version": "0.1.0",
+  "author": {
+    "name": "TU_USUARIO"
+  }
+}

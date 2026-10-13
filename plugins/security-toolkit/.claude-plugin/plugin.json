@@ -1,0 +1,8 @@
+{
+  "name": "security-toolkit",
+  "description": "Defensive security for everyday shipping: 10-minute threat models (assets, entry points, trust boundaries, worst failure), per-entry-point review checklist (injection, authZ/IDOR, secrets, crypto, uploads), dependency/supply-chain routine, incident basics, and deep-review orchestration for full audits. Authorized-defensive scope only.",
+  "version": "0.1.0",
+  "author": {
+    "name": "TU_USUARIO"
+  }
+}
